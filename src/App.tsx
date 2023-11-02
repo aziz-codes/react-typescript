@@ -1,5 +1,5 @@
 const App = () => {
-  let test: number | string = 0;
+  let array: string[] = ["jane", "john"];
   return <div className="text-red-500">App</div>;
 };
 
