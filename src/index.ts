@@ -27,3 +27,8 @@ const testFunction = (): string => {
   //   console.log("hello");
   return "typescript";
 };
+
+// functions with parameter
+const returnFunction = (num: number): number => {
+  return num * 2;
+};
