@@ -29,6 +29,6 @@ const testFunction = (): string => {
 };
 
 // functions with parameter
-const returnFunction = (num: number): number => {
+const returnFunction = (num: number): number | string | boolean | [] | {} => {
   return num * 2;
 };
