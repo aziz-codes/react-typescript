@@ -36,3 +36,10 @@ const returnFunction = (num: number): number | string | boolean | [] | {} => {
 const nonReturn = (): void => {
   console.log("hello");
 };
+
+const sum = (num1: number, num2: number, num3?: number) => {
+  return num1 + num2;
+};
+
+sum(3, 4);
+sum(5, 6, 7);
