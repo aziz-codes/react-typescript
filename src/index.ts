@@ -20,3 +20,10 @@ let anyType: any;
 anyType = "af";
 anyType = 23;
 anyType = false;
+
+// FUNCTIONS
+// functions type
+const testFunction = (): string => {
+  //   console.log("hello");
+  return "typescript";
+};
