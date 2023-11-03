@@ -32,3 +32,7 @@ const testFunction = (): string => {
 const returnFunction = (num: number): number | string | boolean | [] | {} => {
   return num * 2;
 };
+
+const nonReturn = (): void => {
+  console.log("hello");
+};
