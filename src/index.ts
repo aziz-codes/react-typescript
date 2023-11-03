@@ -43,3 +43,27 @@ const sum = (num1: number, num2: number, num3?: number) => {
 
 sum(3, 4);
 sum(5, 6, 7);
+
+// TYPE ALIASES.
+
+type UserTypes = {
+  name: string;
+  age: number;
+  phone: string;
+};
+
+let obj3: {
+  name: string;
+  age: number;
+  phone: string;
+};
+function user(user: UserTypes) {
+  return user.name;
+}
+
+obj3 = {
+  name: "aziz",
+  age: 34,
+  phone: "2345",
+};
+user(obj3);
