@@ -15,3 +15,8 @@ obj2 = {
   name: "aziz",
   age: 32,
 };
+
+let anyType: any;
+anyType = "af";
+anyType = 23;
+anyType = false;
