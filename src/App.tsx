@@ -1,5 +1,6 @@
+import Counter from "./components/Counter";
 const App = () => {
-  return <div className="text-red-500">App</div>;
+  return <Counter />;
 };
 
 export default App;
