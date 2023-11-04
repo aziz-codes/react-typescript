@@ -1,5 +1,9 @@
 import { useState } from "react";
-const Counter = () => {
+type CounterProps = {
+  name: string;
+  age: number;
+};
+const Counter = (counters: CounterProps) => {
   const [counter, setCounter] = useState(0);
 
   const handleInc = (): void => {
@@ -17,6 +21,7 @@ const Counter = () => {
       <button className="px-2 py-3 border shadow-sm" onClick={handleDec}>
         -
       </button>
+      <p className="text-red-500">{counters.name}</p>
     </div>
   );
 };
