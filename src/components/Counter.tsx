@@ -2,10 +2,10 @@ import { useState } from "react";
 const Counter = () => {
   const [counter, setCounter] = useState(0);
 
-  const handleInc = () => {
+  const handleInc = (): void => {
     setCounter((prev) => prev + 1);
   };
-  const handleDec = () => {
+  const handleDec = (): void => {
     setCounter((prev) => prev - 1);
   };
   return (
