@@ -9,7 +9,7 @@ const Counter = (counters: CounterProps) => {
   const handleInc = (): void => {
     setCounter((prev) => prev + 1);
   };
-  const handleDec = (): void => {
+  const handleDec = (e: React.MouseEvent<HTMLButtonElement>) => {
     setCounter((prev) => prev - 1);
   };
   return (
