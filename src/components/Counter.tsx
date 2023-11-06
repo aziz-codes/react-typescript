@@ -4,7 +4,7 @@ type CounterProps = {
   age: number;
 };
 const Counter = (counters: CounterProps) => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState<number>(0);
 
   const handleInc = (): void => {
     setCounter((prev) => prev + 1);
