@@ -1,8 +1,8 @@
 import { useState } from "react";
-type CounterProps = {
+interface CounterProps {
   name: string;
   age: number;
-};
+}
 const Counter = (counters: CounterProps) => {
   const [counter, setCounter] = useState<number>(0);
 
